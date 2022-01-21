@@ -14,7 +14,7 @@ i {
 /* Nav bar */
 
 nav {
-    border-bottom: 5px solid #FCA311;
+    
 }
 
 .nav-link {
@@ -31,3 +31,10 @@ nav i {
 
 /* Main content start */
 
+.main-content {
+    height: 100vh;
+}
+
+.main-img {
+    display: flex;
+}
