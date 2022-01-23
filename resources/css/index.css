@@ -48,7 +48,10 @@ nav {
     flex-direction: column-reverse;
 } .desktop-only {
     display: none;
+} .social-links a {
+    padding: 4px;
 }
+/* End of first section */
 }
 
 
@@ -69,7 +72,13 @@ nav {
 } .main-image {
     display: flex;
     justify-content: center;
-} .desktop-only {display: none;}
+} .desktop-only {display: none;
+}
+
+/* End of first section */
+  .test {
+      display: flex;
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */
