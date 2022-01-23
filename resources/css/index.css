@@ -54,7 +54,7 @@ nav {
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {.main-content {
-   border: 4px solid green;
+   border: 4px solid black;
    display: flex;
    flex-direction: column-reverse;
    align-items: center;
