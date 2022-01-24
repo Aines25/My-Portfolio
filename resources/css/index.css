@@ -52,12 +52,16 @@ nav {
     padding: 4px;
 }
 /* End of first section */
+ .about {
+     display: flex;
+     flex-direction: column-reverse;
+ }
 }
 
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {.main-content {
-   border: 4px solid black;
+   border: 1px solid black;
    display: flex;
    flex-direction: column-reverse;
    align-items: center;
@@ -76,14 +80,15 @@ nav {
 }
 
 /* End of first section */
-  .test {
-      display: flex;
-  }
+ 
+  
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {.desktop-only {
     display: none;
+} .about {
+    display: flex;
 }}
 
 /* Large devices (desktops, 992px and up) */
