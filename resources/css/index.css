@@ -5,8 +5,7 @@ body {
     margin: 0;
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
-    background-color: gray;
-    color: black;
+   
 }
 
 html {
@@ -140,3 +139,10 @@ nav {
     color: gray;
 }
 
+.pp {
+    color: #FCA311;
+}
+
+.ll {
+    background-color: gray;
+}
