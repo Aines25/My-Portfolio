@@ -129,6 +129,12 @@ nav {
 } .mobile-only {display: none;
 } .desktop-only {
     display: block;
+} .project-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid green;
 }
 }
 
@@ -157,3 +163,6 @@ nav {
 
 /* test stuff */
 
+.card {
+    border: 1px solid black;
+}
