@@ -5,8 +5,9 @@ body {
     margin: 0;
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
-    background-color: #525252;
-    color: white;
+    background: rgb(232,230,234);
+background: linear-gradient(319deg, rgba(232,230,234,1) 76%, rgba(34,34,34,1) 100%);
+    color: black;
 }
 
 html {
@@ -165,28 +166,57 @@ html {
 /* Projects section */
 .card {
     border: 1px solid black;
+    box-shadow: 8px 8px 5px #aaaaaa;
 }
 /* Projects section end */
 
 /* Footer */
 
 footer {
-    border-top: 1px solid black;
+    border-top: 1px solid #e8e6ea;
+    background-color: #222222;
+    color: #e8e6ea;
 }
 
-.footer-icons {
-    font-size: 1.75rem;
+.page-icons {
+    font-size: 2rem;
 }
 
-.footer-icons a {
-    color: pink;
+.page-icons a {
+    color: #aaaaaa;
 }
 
 /* Footer end */
 
 /* Buttons */
 
+.social-links a {
+    color: #222222;
+}
+
 button {
-  background-color: black;
-  color: white;
+  background-color: #e8e6ea;
+  color: #222222;
+  border: #222222 2px solid;
+}
+
+button:hover {
+    background-color: #222222;
+    color: #e8e6ea;
+}
+
+.btn-sm {
+    border-radius: 10%;
+}
+
+/* buttons end */
+
+.dark-bg {
+    background-color: #222222;
+    color: #e8e6ea;
+}
+
+.contact:hover {
+    color: #FF961F;
+    background-color: #e8e6ea;
 }
