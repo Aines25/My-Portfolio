@@ -6,7 +6,7 @@ body {
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
     background: rgb(232,230,234);
-background: linear-gradient(319deg, rgba(232,230,234,1) 76%, rgba(34,34,34,1) 100%);
+    background: linear-gradient(319deg, rgba(232,230,234,1) 76%, rgba(34,34,34,1) 100%);
     color: black;
 }
 
@@ -73,7 +73,7 @@ html {
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {.main-content {
-   border: 1px solid black;
+   border: 1px solid #222222;
    display: flex;
    flex-direction: column-reverse;
    align-items: center;
@@ -206,17 +206,21 @@ button:hover {
 }
 
 .btn-sm {
-    border-radius: 10%;
+    border-radius: 15%;
 }
 
 /* buttons end */
+
+.contact:hover {
+    color: #e8e6ea;
+    background-color: #222222;
+}
+
+/* Dark background sections of site */
 
 .dark-bg {
     background-color: #222222;
     color: #e8e6ea;
 }
 
-.contact:hover {
-    color: #FF961F;
-    background-color: #e8e6ea;
-}
+/* End of dark BG sections */
