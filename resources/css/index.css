@@ -48,6 +48,9 @@ html {
     display: none;
 } .social-links a {
     padding: 4px;
+} .main-image img {
+    display: flex;
+    margin: auto;
 }
 /* End of first section */
  .about {
@@ -206,7 +209,7 @@ button:hover {
 }
 
 .btn-sm {
-    border-radius: 15%;
+    border-radius: 500px;
 }
 
 /* buttons end */
