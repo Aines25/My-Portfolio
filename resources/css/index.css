@@ -6,8 +6,8 @@ body {
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
     background: rgb(232,230,234);
-    background: linear-gradient(319deg, rgba(232,230,234,1) 76%, rgba(34,34,34,1) 100%);
-    color: black;
+    background: linear-gradient(28deg, rgba(232,230,234,1) 87%, rgba(253,112,20,1) 100%);
+    color: #222222;
 }
 
 html {
@@ -171,6 +171,7 @@ html {
     border: 1px solid black;
     box-shadow: 8px 8px 5px #aaaaaa;
 }
+
 /* Projects section end */
 
 /* Footer */
@@ -179,6 +180,10 @@ footer {
     border-top: 1px solid #e8e6ea;
     background-color: #222222;
     color: #e8e6ea;
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    justify-content: center;
 }
 
 .page-icons {
@@ -205,7 +210,7 @@ button {
 
 button:hover {
     background-color: #222222;
-    color: #e8e6ea;
+    color: #fd7014;
 }
 
 .btn-sm {
@@ -215,7 +220,7 @@ button:hover {
 /* buttons end */
 
 .contact:hover {
-    color: #e8e6ea;
+    color: #fd7014;
     background-color: #222222;
 }
 
