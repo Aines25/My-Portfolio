@@ -211,6 +211,7 @@ button {
 button:hover {
     background-color: #222222;
     color: #fd7014;
+    border: #fd7014 1px solid;
 }
 
 .btn-sm {
@@ -232,3 +233,38 @@ button:hover {
 }
 
 /* End of dark BG sections */
+
+
+/* tests below */
+
+.main-text h3 {
+    animation: home-anim 1.25s ease 0s 1 normal forwards;
+}
+
+@keyframes home-anim {
+    0% {
+      opacity: 0;
+      transform: translateY(200px);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .main-text h1 {
+    animation: home-anim 1.5s ease 0s 1 normal forwards;
+  }
+
+  .main-text h2 {
+    animation: home-anim 2s ease 0s 1 normal forwards;
+  }
+
+  .main-buttons {
+    animation: home-anim 2.25s ease 0s 1 normal forwards;
+  }
+
+  .mobile-only, .desktop-only {
+    animation: home-anim 2.25s ease 0s 1 normal forwards;
+  }
