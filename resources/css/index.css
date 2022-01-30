@@ -27,7 +27,45 @@ html {
 
 /* Main content start */
 
-/* Mobile styles */
+/* main content animations start */
+
+.main-text h3 {
+    animation: home-anim 1.25s ease 0s 1 normal forwards;
+}
+
+@keyframes home-anim {
+    0% {
+      opacity: 0;
+      transform: translateY(200px);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .main-text h1 {
+    animation: home-anim 1.5s ease 0s 1 normal forwards;
+  }
+
+  .main-text h2 {
+    animation: home-anim 2s ease 0s 1 normal forwards;
+  }
+
+  .main-buttons {
+    animation: home-anim 2.25s ease 0s 1 normal forwards;
+  }
+
+  .mobile-only, .desktop-only {
+    animation: home-anim 2.25s ease 0s 1 normal forwards;
+  }
+
+  /* Main content animations end */
+
+
+
+/* Mobile styles start */
 
 /* `sm` applies to x-small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {.main-content h1, h2, h3 {
@@ -166,13 +204,39 @@ html {
 
 /* Main content end */
 
+
+
 /* Projects section */
 .card {
     border: 1px solid black;
     box-shadow: 8px 8px 5px #aaaaaa;
 }
 
+
+/* projects hover start */
+.card img {
+    transition: all .5s ease-in;
+}
+.card img:hover {
+    transform: scale(1.05);
+}
+
+/* projects hover end  */
+
+
 /* Projects section end */
+
+
+/* contact section start */
+
+.contact:hover {
+    color: #fd7014;
+    background-color: #222222;
+}
+
+/* contact section end */
+
+
 
 /* Footer */
 
@@ -196,7 +260,11 @@ footer {
 
 /* Footer end */
 
-/* Buttons */
+
+
+/* Button styling */
+/* Button styling */
+/* Button styling */
 
 .social-links a {
     color: #222222;
@@ -218,12 +286,11 @@ button:hover {
     border-radius: 500px;
 }
 
-/* buttons end */
+/* button styling end */
+/* button styling end */
+/* button styling end */
 
-.contact:hover {
-    color: #fd7014;
-    background-color: #222222;
-}
+
 
 /* Dark background sections of site */
 
@@ -235,41 +302,7 @@ button:hover {
 /* End of dark BG sections */
 
 
-/* tests below */
 
-.main-text h3 {
-    animation: home-anim 1.25s ease 0s 1 normal forwards;
-}
-
-@keyframes home-anim {
-    0% {
-      opacity: 0;
-      transform: translateY(200px);
-    }
-  
-    100% {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
-
-  .main-text h1 {
-    animation: home-anim 1.5s ease 0s 1 normal forwards;
-  }
-
-  .main-text h2 {
-    animation: home-anim 2s ease 0s 1 normal forwards;
-  }
-
-  .main-buttons {
-    animation: home-anim 2.25s ease 0s 1 normal forwards;
-  }
-
-  .mobile-only, .desktop-only {
-    animation: home-anim 2.25s ease 0s 1 normal forwards;
-  }
-
-  /* End of tests */
 
   /* Social/Page icons hover */
 
@@ -280,3 +313,8 @@ button:hover {
   .page-icons a:hover {
       color: #fd7014;
   }
+
+  /* Social/page icons hover end */
+
+
+ 
