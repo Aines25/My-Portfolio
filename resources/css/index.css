@@ -268,3 +268,15 @@ button:hover {
   .mobile-only, .desktop-only {
     animation: home-anim 2.25s ease 0s 1 normal forwards;
   }
+
+  /* End of tests */
+
+  /* Social/Page icons hover */
+
+  .social-links a:hover {
+      color: #fd7014;
+  }
+
+  .page-icons a:hover {
+      color: #fd7014;
+  }
