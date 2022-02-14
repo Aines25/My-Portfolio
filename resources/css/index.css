@@ -274,12 +274,17 @@ button {
   background-color: #e8e6ea;
   color: #222222;
   border: #222222 2px solid;
+  
 }
 
 button:hover {
     background-color: #222222;
     color: #fd7014;
     border: #fd7014 1px solid;
+}
+
+a, button {
+    text-decoration: none;
 }
 
 .btn-sm {
