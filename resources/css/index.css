@@ -30,16 +30,25 @@ html {
 
 /* Hero start */
 
+.navbar-nav {
+    padding-top: 15px;
+}
+
 .homepage-hero {
     background-image: url(/resources/images/hero.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    color: white;   
+    color: white;  
+    height: 100vh; 
 }
 
 .hero-wrapper {
-    padding: 150px 0 200px 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -100px;
 }
 
 .hero-heading {
