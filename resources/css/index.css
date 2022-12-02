@@ -239,14 +239,77 @@ animation: home-anim 2.75s ease 0s 1 normal forwards;
 
  
 /* Projects start */
+
+.projects-heading {
+    padding-top: 30px;
+    margin-bottom: 36px;
+}
+
 .project-img {
     box-shadow: 8px 8px 5px #aaaaaa;
     border-radius: 5px;
     transition: all .5s ease-in;
+    width: 100%;
+    margin-bottom: 24px;
 }
 
 .project-img:hover {
     transform: scale(1.05);
+}
+
+.pro-heading {
+    font-weight: 700;
+    margin: 24px 0 16px 0;
+}
+
+.project-btns {
+    margin-bottom: 36px;
+}
+
+.project-btn {
+    margin-right: 5px;
+}
+
+@media only screen and (min-width: 1024px) {
+    .pro-reverse {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .project-container {
+        display: flex;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+
+    .project-img {
+        width: 100%;
+        max-width: 500px;
+    }
+
+    .projects-text {
+        width: 100%;
+        max-width: 512px;
+        padding-right: 50px;
+    }
+
+    .projects-text-reverse {
+        width: 100%;
+        max-width: 512px;
+        padding-left: 50px;
+    }
+}
+
+@media only screen and (min-width: 1366px) {
+    .project-container {
+        justify-content: space-between;
+    }
+    .project-img {
+        max-width: 600px;
+    }
+    .projects-text, .projects-text-reverse {
+        max-width: 650px;
+        font-size: 20px;
+    }
 }
 
 /* Projects end */
@@ -305,6 +368,11 @@ footer {
     border: solid 2px black;
     padding: 2px 10px;
     border-radius: 15px;
+}
+
+.cta-btn-dark:hover {
+    background-color: black;
+    color: white;
 }
 
 
