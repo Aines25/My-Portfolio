@@ -132,13 +132,18 @@ animation: home-anim 1.5s ease 0s 1 normal forwards;
 animation: home-anim 2s ease 0s 1 normal forwards;
 }
 
-.main-buttons {
-animation: home-anim 2.25s ease 0s 1 normal forwards;
+.main-text p {
+    animation: home-anim 2.5s ease 0s 1 normal forwards;
 }
 
-.mobile-only, .desktop-only {
-animation: home-anim 2.25s ease 0s 1 normal forwards;
+.main-buttons {
+animation: home-anim 2.75s ease 0s 1 normal forwards;
 }
+
+.contact-anim {
+animation: home-anim 2.75s ease 0s 1 normal forwards;
+}
+
 
 /* Main content animations end */
 
@@ -148,10 +153,88 @@ animation: home-anim 2.25s ease 0s 1 normal forwards;
 
 /* start of about section */
 
-.list-container {
-    margin-top: 24px;
+.about-wrapper {
+    padding-top: 30px;
 }
 
+.about-heading {
+    margin-bottom: 24px;
+}
+
+.about-text {
+    margin-bottom: 24px;
+}
+
+.list-container {
+    margin-top: 24px;
+    width: 100%;
+    max-width: 90%;
+}
+
+.fa-caret-right {
+    margin-right: 10px;
+}
+
+.about-img {
+    width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+    .tech-heading {
+        margin-top: 50px;
+    }
+    .about-img-container {
+        max-width: 600px; 
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .about-wrapper {
+        display: flex;
+    }
+    
+    .about-right {
+        width: 100%;
+        max-width: 450px;
+    }
+    .about-left {
+        width: 100%;
+        max-width: 450px;
+    }
+    
+    .about-text {
+        padding-right: 40px;
+    }
+
+    .tech-heading {
+        margin-top: 65px;
+    } 
+
+    .list-container {
+        max-width: 100%;
+    }
+
+    .about-img-container {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .about-right, .about-left {
+        max-width: 512px;
+    }
+
+    .about-text {
+        padding-right: 0;
+    }
+
+    .about-wrapper {
+        justify-content: space-between;
+        padding: 75px 0;
+        font-size: 20px;
+    }
+}
 /* End of about section */
 
  
