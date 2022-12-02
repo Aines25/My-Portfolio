@@ -111,6 +111,10 @@ animation: home-anim 2.25s ease 0s 1 normal forwards;
 
 /* start of about section */
 
+.list-container {
+    margin-top: 24px;
+}
+
 
 
  /* End of about section */
@@ -295,3 +299,8 @@ footer {
 }
 
 /* End of dark BG sections */
+
+.swiper {
+    width: 600px;
+    height: 300px;
+  }
