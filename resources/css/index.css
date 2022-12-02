@@ -106,6 +106,21 @@ html {
     }
 }
 
+@media only screen and (min-width: 1950px) {
+    .hero-heading {
+        font-size: 60px;
+    }
+    .hero-sub-heading {
+        font-size: 48px;
+    }
+    .hero-tagline {
+        font-size: 24px;
+    }
+    .hero-contact {
+        font-size: 24px;
+    }
+}
+
 /* main content animations start */
 
 .main-text h3 {
@@ -317,6 +332,10 @@ animation: home-anim 2.75s ease 0s 1 normal forwards;
 
 /* contact section start */
 
+.contact-heading {
+    margin-bottom: 16px;
+}
+
 .contact:hover {
     color: #fd7014;
     background-color: #222222;
@@ -336,6 +355,22 @@ footer {
     flex-direction: column;
     margin-top: auto;
     justify-content: center;
+    padding-top: 16px;
+}
+
+.page-icons a {
+    color: white;
+}
+
+.page-icons:hover {
+    color: gray;
+}
+.page-icons a:hover {
+    color: gray;
+}
+
+.copyright {
+    padding-bottom: 12px;
 }
 
 /* Footer end */
