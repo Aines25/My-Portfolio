@@ -85,6 +85,18 @@ html {
     margin: 0 10px;
 }
 
+.bi-linkedin:hover {
+    color: #0072b1 !important;
+}
+
+.bi-envelope:hover {
+    color: orange !important;
+}
+
+.bi-github:hover {
+    color: black !important;
+}
+
 @media only screen and (min-width: 768px) {
     .hero-heading {
         font-size: 44px;
